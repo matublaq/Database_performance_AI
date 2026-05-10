@@ -1,0 +1,1388 @@
+{
+  "model": "FZHI_TABLES",
+  "tables": [
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": null,
+      "name": null,
+      "code": null,
+      "columns": []
+    },
+    {
+      "id": "o11",
+      "name": "SEQUENCE GENERATION",
+      "code": "T_FZHI_SEQUENCE_GENERATION",
+      "columns": [
+        {
+          "id": "o106",
+          "name": "CUSTOMER USER IDENTIFIER",
+          "code": "GF_USER_CUSTOMER_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o107",
+          "name": "SEQUENCE ID",
+          "code": "GF_SEQUENCE_ID",
+          "datatype": "NUMBER(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o108",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o109",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o15",
+      "name": "PAYMENT UPDATES",
+      "code": "T_FZHI_PAYMENT_UPDATES",
+      "columns": [
+        {
+          "id": "o112",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o113",
+          "name": "PAYMENT IDENTIFIER",
+          "code": "GF_PAYMENT_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o114",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o115",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o116",
+          "name": "PAYMENT STATUS IDENTIFIER",
+          "code": "GF_PAYMENT_STATUS_ID",
+          "datatype": "VARCHAR2(4)",
+          "mandatory": false
+        },
+        {
+          "id": "o117",
+          "name": "STATUS LOG DESCRIPTION",
+          "code": "GF_STATUS_LOG_DESC",
+          "datatype": "VARCHAR2(254)",
+          "mandatory": false
+        },
+        {
+          "id": "o118",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o119",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o13",
+      "name": "SET UPDATES",
+      "code": "T_FZHI_SET_UPDATES",
+      "columns": [
+        {
+          "id": "o123",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o124",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o125",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o126",
+          "name": "STATUS OF THE PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_STATUS_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o127",
+          "name": "STATUS LOG DESCRIPTION",
+          "code": "GF_STATUS_LOG_DESC",
+          "datatype": "VARCHAR2(254)",
+          "mandatory": false
+        },
+        {
+          "id": "o128",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o129",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        },
+        {
+          "id": "o130",
+          "name": "PRODUCT SCOPE TYPE",
+          "code": "GF_PRODUCT_SCOPE_TYPE",
+          "datatype": "VARCHAR2(8)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o23",
+      "name": "PAYMENT GROUPER",
+      "code": "T_FZHI_PAYMENT_GROUPER",
+      "columns": [
+        {
+          "id": "o134",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o135",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o136",
+          "name": "HASH IDENTIFIER",
+          "code": "GF_HASH_ID",
+          "datatype": "VARCHAR2(64)",
+          "mandatory": false
+        },
+        {
+          "id": "o137",
+          "name": "GROUPS CONFIGURED NUMBER",
+          "code": "GF_GROUPS_CONFIGURED_NUMBER",
+          "datatype": "NUMBER(10)",
+          "mandatory": false
+        },
+        {
+          "id": "o138",
+          "name": "PAYMENTS PROCESSED NUMBER",
+          "code": "GF_PAYMENTS_PROCESSED_NUMBER",
+          "datatype": "NUMBER(10)",
+          "mandatory": false
+        },
+        {
+          "id": "o139",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o140",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o7",
+      "name": "PAYMENT PIECES",
+      "code": "T_FZHI_PAYMENT_PIECES",
+      "columns": [
+        {
+          "id": "o144",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o145",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o146",
+          "name": "SEQUENCE ID",
+          "code": "GF_SEQUENCE_ID",
+          "datatype": "NUMBER(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o147",
+          "name": "NUMBER OF INPUT RECORDS",
+          "code": "GF_INPUT_RECORD_NUMBER",
+          "datatype": "NUMBER(6)",
+          "mandatory": false
+        },
+        {
+          "id": "o148",
+          "name": "PAYMENT PIECE NUMBER",
+          "code": "GF_PAYMENT_PIECE_NUMBER",
+          "datatype": "NUMBER(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o149",
+          "name": "FILE NAME",
+          "code": "GF_FILE_NAME",
+          "datatype": "VARCHAR2(100)",
+          "mandatory": false
+        },
+        {
+          "id": "o150",
+          "name": "TOTAL NUMBER OF RECORDS",
+          "code": "GF_TOTAL_RECORDS_NUMBER",
+          "datatype": "NUMBER(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o151",
+          "name": "FILE ORDERS NUMBER",
+          "code": "GF_FILE_ORDERS_NUMBER",
+          "datatype": "NUMBER(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o152",
+          "name": "TOTAL AMOUNT",
+          "code": "GF_TOTAL_AMOUNT",
+          "datatype": "NUMBER(26,6)",
+          "mandatory": false
+        },
+        {
+          "id": "o153",
+          "name": "FILE PIECE DESCRIPTION",
+          "code": "GF_FILE_PIECE_DESC",
+          "datatype": "VARCHAR2(4000)",
+          "mandatory": false
+        },
+        {
+          "id": "o154",
+          "name": "CUSTOMER INFORMATION SECTION DESCRIPTION",
+          "code": "GF_CUST_INFO_SECTION_DESC",
+          "datatype": "VARCHAR2(3000)",
+          "mandatory": false
+        },
+        {
+          "id": "o155",
+          "name": "PAYMENT STATUS IDENTIFIER",
+          "code": "GF_PAYMENT_STATUS_ID",
+          "datatype": "VARCHAR2(4)",
+          "mandatory": false
+        },
+        {
+          "id": "o156",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o157",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o29",
+      "name": "DEADLETTER MANAGER",
+      "code": "T_FZHI_DEADLETTER_MANAGER",
+      "columns": [
+        {
+          "id": "o159",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o160",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o161",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o162",
+          "name": "PAYMENT SET SUBCATEGORY CODE ID",
+          "code": "GF_PMT_SET_SUBCATG_CODE_ID",
+          "datatype": "VARCHAR2(3)",
+          "mandatory": false
+        },
+        {
+          "id": "o163",
+          "name": "ADDITIONAL PAYMENT INFORMATION DESCRIPTION",
+          "code": "GF_ADDL_PYMT_INFO_DESC",
+          "datatype": "CLOB",
+          "mandatory": false
+        },
+        {
+          "id": "o164",
+          "name": "CUSTOMER INFORMATION SECTION DESCRIPTION",
+          "code": "GF_CUST_INFO_SECTION_DESC",
+          "datatype": "VARCHAR2(3000)",
+          "mandatory": false
+        },
+        {
+          "id": "o165",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o166",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o31",
+      "name": "INPUTFILE INFORMATION",
+      "code": "T_FZHI_INPUTFILE_INFORMATION",
+      "columns": [
+        {
+          "id": "o170",
+          "name": "COMMUNICATION ORIGIN IDENTIFIER",
+          "code": "GF_COMMUNICATION_ORIGIN_ID",
+          "datatype": "VARCHAR2(32)",
+          "mandatory": false
+        },
+        {
+          "id": "o171",
+          "name": "NUMERIC COUNTRY IDENTIFIER",
+          "code": "GF_COUNTRY_NUM_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o172",
+          "name": "SERVICE IDENTIFIER",
+          "code": "GF_SERVICE_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o173",
+          "name": "DETAIL TYPE",
+          "code": "GF_DETAIL_TYPE",
+          "datatype": "VARCHAR2(8)",
+          "mandatory": false
+        },
+        {
+          "id": "o174",
+          "name": "FORMAT TYPE",
+          "code": "GF_FORMAT_TYPE",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o175",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o176",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o19",
+      "name": "PAYMENT_PENDING",
+      "code": "T_FZHI_PAYMENT_PENDING",
+      "columns": [
+        {
+          "id": "o179",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o180",
+          "name": "SEQUENCE START IDENTIFIER",
+          "code": "GF_SEQUENCE_START_ID",
+          "datatype": "VARCHAR2(32)",
+          "mandatory": false
+        },
+        {
+          "id": "o181",
+          "name": "CLIENT ID",
+          "code": "GF_CLIENT_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o182",
+          "name": "FILE FORMAT TYPE",
+          "code": "GF_FILE_FORMAT_TYPE",
+          "datatype": "VARCHAR2(8)",
+          "mandatory": false
+        },
+        {
+          "id": "o183",
+          "name": "FILE NAME",
+          "code": "GF_FILE_NAME",
+          "datatype": "VARCHAR2(100)",
+          "mandatory": false
+        },
+        {
+          "id": "o184",
+          "name": "NUMERIC COUNTRY IDENTIFIER",
+          "code": "GF_COUNTRY_NUM_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o185",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o186",
+          "name": "SERVICE IDENTIFIER",
+          "code": "GF_SERVICE_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o187",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o188",
+          "name": "FILE PIECE DESCRIPTION",
+          "code": "GF_FILE_PIECE_DESC",
+          "datatype": "VARCHAR2(4000)",
+          "mandatory": false
+        },
+        {
+          "id": "o189",
+          "name": "STATUS MESSAGE DESCRIPTION",
+          "code": "GF_STATUS_MESSAGE_DESC",
+          "datatype": "VARCHAR2(254)",
+          "mandatory": false
+        },
+        {
+          "id": "o190",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o191",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        },
+        {
+          "id": "o192",
+          "name": "PAYMENT LABEL IDENTIFIER",
+          "code": "GF_PAYMENT_LABEL_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o193",
+          "name": "STATUS LOG DESCRIPTION",
+          "code": "GF_STATUS_LOG_DESC",
+          "datatype": "VARCHAR2(254)",
+          "mandatory": false
+        },
+        {
+          "id": "o194",
+          "name": "PAYMENT STATUS IDENTIFIER",
+          "code": "GF_PAYMENT_STATUS_ID",
+          "datatype": "VARCHAR2(4)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o9",
+      "name": "PAYMENT SEQUENCE",
+      "code": "T_FZHI_PAYMENT_SEQUENCE",
+      "columns": [
+        {
+          "id": "o200",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o201",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o202",
+          "name": "SEQUENCE START IDENTIFIER",
+          "code": "GF_SEQUENCE_START_ID",
+          "datatype": "VARCHAR2(32)",
+          "mandatory": false
+        },
+        {
+          "id": "o203",
+          "name": "GROUPS CONFIGURED NUMBER",
+          "code": "GF_GROUPS_CONFIGURED_NUMBER",
+          "datatype": "NUMBER(10)",
+          "mandatory": false
+        },
+        {
+          "id": "o204",
+          "name": "NUMERIC COUNTRY IDENTIFIER",
+          "code": "GF_COUNTRY_NUM_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o205",
+          "name": "REFERENCE IDENTIFIER",
+          "code": "GF_REFERENCE_ID",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o206",
+          "name": "SERVICE IDENTIFIER",
+          "code": "GF_SERVICE_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o207",
+          "name": "FLAG CODE IDENTIFIER",
+          "code": "GF_FLAG_CODE_ID",
+          "datatype": "VARCHAR2(32)",
+          "mandatory": false
+        },
+        {
+          "id": "o208",
+          "name": "STATUS OF THE PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_STATUS_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o209",
+          "name": "REGISTER ORDER NUMBER",
+          "code": "GF_REGISTER_ORDER_NUMBER",
+          "datatype": "NUMBER(3)",
+          "mandatory": false
+        },
+        {
+          "id": "o210",
+          "name": "STATUS TYPE",
+          "code": "GF_STATUS_TYPE",
+          "datatype": "VARCHAR2(3)",
+          "mandatory": false
+        },
+        {
+          "id": "o211",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o212",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o27",
+      "name": "CLIENT REPORTS",
+      "code": "T_FZHI_CLIENT_REPORTS",
+      "columns": [
+        {
+          "id": "o217",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o218",
+          "name": "IDENTIFIER ID",
+          "code": "GF_IDENTIFIER_ID",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o219",
+          "name": "PAYMENT LABEL IDENTIFIER",
+          "code": "GF_PAYMENT_LABEL_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o220",
+          "name": "FILE NAME",
+          "code": "GF_FILE_NAME",
+          "datatype": "VARCHAR2(100)",
+          "mandatory": false
+        },
+        {
+          "id": "o221",
+          "name": "REFERENCE IDENTIFIER",
+          "code": "GF_REFERENCE_ID",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o222",
+          "name": "NUMERIC COUNTRY IDENTIFIER",
+          "code": "GF_COUNTRY_NUM_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o223",
+          "name": "SERVICE IDENTIFIER",
+          "code": "GF_SERVICE_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o224",
+          "name": "FORMAT TYPE",
+          "code": "GF_FORMAT_TYPE",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o225",
+          "name": "FILE PIECE DESCRIPTION",
+          "code": "GF_FILE_PIECE_DESC",
+          "datatype": "VARCHAR2(4000)",
+          "mandatory": false
+        },
+        {
+          "id": "o226",
+          "name": "STATUS IDENTIFIER",
+          "code": "GF_STATUS_ID",
+          "datatype": "VARCHAR2(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o227",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o228",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o33",
+      "name": "REPORT GROUPER",
+      "code": "T_FZHI_REPORT_GROUPER",
+      "columns": [
+        {
+          "id": "o233",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o234",
+          "name": "PAYMENT LABEL IDENTIFIER",
+          "code": "GF_PAYMENT_LABEL_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o235",
+          "name": "NUMERIC COUNTRY IDENTIFIER",
+          "code": "GF_COUNTRY_NUM_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o236",
+          "name": "SERVICE IDENTIFIER",
+          "code": "GF_SERVICE_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o237",
+          "name": "FILE PIECE DESCRIPTION",
+          "code": "GF_FILE_PIECE_DESC",
+          "datatype": "VARCHAR2(4000)",
+          "mandatory": false
+        },
+        {
+          "id": "o238",
+          "name": "FILE NAME",
+          "code": "GF_FILE_NAME",
+          "datatype": "VARCHAR2(100)",
+          "mandatory": false
+        },
+        {
+          "id": "o239",
+          "name": "REFERENCE IDENTIFIER",
+          "code": "GF_REFERENCE_ID",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o240",
+          "name": "STATUS IDENTIFIER",
+          "code": "GF_STATUS_ID",
+          "datatype": "VARCHAR2(9)",
+          "mandatory": false
+        },
+        {
+          "id": "o241",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o242",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o25",
+      "name": "PAYMENT STRUCTURE",
+      "code": "T_FZHI_PAYMENT_STRUCTURE",
+      "columns": [
+        {
+          "id": "o246",
+          "name": "PRODUCT SCOPE TYPE",
+          "code": "GF_PRODUCT_SCOPE_TYPE",
+          "datatype": "VARCHAR2(8)",
+          "mandatory": false
+        },
+        {
+          "id": "o247",
+          "name": "FILE PIECE DESCRIPTION",
+          "code": "GF_FILE_PIECE_DESC",
+          "datatype": "VARCHAR2(4000)",
+          "mandatory": false
+        },
+        {
+          "id": "o248",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o249",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o250",
+          "name": "PAYMENT IDENTIFIER",
+          "code": "GF_PAYMENT_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o251",
+          "name": "NUMBER OF INPUT RECORDS",
+          "code": "GF_INPUT_RECORD_NUMBER",
+          "datatype": "NUMBER(6)",
+          "mandatory": false
+        },
+        {
+          "id": "o252",
+          "name": "PAYMENT STATUS IDENTIFIER",
+          "code": "GF_PAYMENT_STATUS_ID",
+          "datatype": "VARCHAR2(4)",
+          "mandatory": false
+        },
+        {
+          "id": "o253",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o254",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o21",
+      "name": "PILOTAGE",
+      "code": "T_FZHI_PILOTAGE",
+      "columns": [
+        {
+          "id": "o257",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o258",
+          "name": "ACTION NAME",
+          "code": "GF_ACTION_NAME",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o259",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o260",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        },
+        {
+          "id": "o261",
+          "name": "REJECTION FLAG INDICATOR",
+          "code": "GF_REJECTION_FLAG_IND_TYPE",
+          "datatype": "VARCHAR2(1)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o17",
+      "name": "PAYMENT LOCATOR",
+      "code": "T_FZHI_PAYMENT_LOCATOR",
+      "columns": [
+        {
+          "id": "o263",
+          "name": "PAYMENT IDENTIFIER",
+          "code": "GF_PAYMENT_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o264",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o265",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o266",
+          "name": "PAYMENT STATUS IDENTIFIER",
+          "code": "GF_PAYMENT_STATUS_ID",
+          "datatype": "VARCHAR2(4)",
+          "mandatory": false
+        },
+        {
+          "id": "o267",
+          "name": "FILE PIECE DESCRIPTION",
+          "code": "GF_FILE_PIECE_DESC",
+          "datatype": "VARCHAR2(4000)",
+          "mandatory": false
+        },
+        {
+          "id": "o268",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o269",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        },
+        {
+          "id": "o270",
+          "name": "SERVICE IDENTIFIER",
+          "code": "GF_SERVICE_ID",
+          "datatype": "VARCHAR2(20)",
+          "mandatory": false
+        },
+        {
+          "id": "o271",
+          "name": "SEQUENCE START IDENTIFIER",
+          "code": "GF_SEQUENCE_START_ID",
+          "datatype": "VARCHAR2(32)",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o39",
+      "name": "NOTIFICATION_FLOW",
+      "code": "T_FZHI_NOTIFICATION_FLOW",
+      "columns": [
+        {
+          "id": "o276",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o277",
+          "name": "COMMUNICATION FORMAT TYPE IDENTIFIER",
+          "code": "GF_CMUN_FMT_TYPE_ID",
+          "datatype": "VARCHAR2(3)",
+          "mandatory": false
+        },
+        {
+          "id": "o278",
+          "name": "FORMAT TASK NAME",
+          "code": "GF_FORMAT_TASK_NAME",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o279",
+          "name": "STATUS NATURE TYPE",
+          "code": "GF_STATUS_NATURE_TYPE",
+          "datatype": "VARCHAR2(8)",
+          "mandatory": false
+        },
+        {
+          "id": "o280",
+          "name": "GOAL STATUS TYPE",
+          "code": "GF_GOAL_STATUS_TYPE",
+          "datatype": "VARCHAR2(8)",
+          "mandatory": false
+        },
+        {
+          "id": "o281",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o282",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o37",
+      "name": "NOTIFICATION_DOCUMENT_BUFFER",
+      "code": "T_FZHI_NOTIFICATION_DOC_BUF",
+      "columns": [
+        {
+          "id": "o285",
+          "name": "COMMUNICATION FILE IDENTIFIER",
+          "code": "GF_COMMUNICATION_FILE_ID",
+          "datatype": "VARCHAR2(32)",
+          "mandatory": false
+        },
+        {
+          "id": "o286",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o287",
+          "name": "PAYMENT SET IDENTIFIER",
+          "code": "GF_PAYMENT_SET_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o288",
+          "name": "PAYMENT IDENTIFIER",
+          "code": "GF_PAYMENT_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o289",
+          "name": "FORMAT TASK NAME",
+          "code": "GF_FORMAT_TASK_NAME",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o290",
+          "name": "COMMUNICATION FORMAT TYPE IDENTIFIER",
+          "code": "GF_CMUN_FMT_TYPE_ID",
+          "datatype": "VARCHAR2(3)",
+          "mandatory": false
+        },
+        {
+          "id": "o291",
+          "name": "NOTIFICATION TEMPLATE IDENTIFIER",
+          "code": "GF_NOTIFICATION_TEMPLATE_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o292",
+          "name": "COMMUNICATION FILE URI IDENTIFIER",
+          "code": "GF_COMMUNICATION_FILE_URI_ID",
+          "datatype": "VARCHAR2(250)",
+          "mandatory": false
+        },
+        {
+          "id": "o293",
+          "name": "STATUS LOG DESCRIPTION",
+          "code": "GF_STATUS_LOG_DESC",
+          "datatype": "VARCHAR2(254)",
+          "mandatory": false
+        },
+        {
+          "id": "o294",
+          "name": "FILE NAME",
+          "code": "GF_FILE_NAME",
+          "datatype": "VARCHAR2(100)",
+          "mandatory": false
+        },
+        {
+          "id": "o295",
+          "name": "UNIQUE AUDIT IDENTIFIER",
+          "code": "GF_UNIQUE_AUDIT_ID",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o296",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o297",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "id": "o35",
+      "name": "INTERMEDIATE EVENT",
+      "code": "T_FZHI_INTERMEDIATE_EVENT",
+      "columns": [
+        {
+          "id": "o302",
+          "name": "APPLICATION PROGRAMMING INTERFACE IDENTIFIER",
+          "code": "GF_API_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o303",
+          "name": "TRANSACTION MESSAGE IDENTIFIER",
+          "code": "GF_TRANSACTION_MESSAGE_ID",
+          "datatype": "VARCHAR2(35)",
+          "mandatory": false
+        },
+        {
+          "id": "o304",
+          "name": "COMMUNICATION STATUS IDENTIFIER",
+          "code": "GF_COMMUNICATION_STATUS_ID",
+          "datatype": "VARCHAR2(5)",
+          "mandatory": false
+        },
+        {
+          "id": "o305",
+          "name": "COMMUNICATION FORMAT TYPE IDENTIFIER",
+          "code": "GF_CMUN_FMT_TYPE_ID",
+          "datatype": "VARCHAR2(3)",
+          "mandatory": false
+        },
+        {
+          "id": "o306",
+          "name": "CUSTOMER USER IDENTIFIER",
+          "code": "GF_USER_CUSTOMER_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o307",
+          "name": "LOCAL INDIVIDUAL IDENTIFIER",
+          "code": "GF_LOCAL_CUSTOMER_ID",
+          "datatype": "VARCHAR2(15)",
+          "mandatory": false
+        },
+        {
+          "id": "o308",
+          "name": "CLIENT ID",
+          "code": "GF_CLIENT_ID",
+          "datatype": "VARCHAR2(36)",
+          "mandatory": false
+        },
+        {
+          "id": "o309",
+          "name": "ORIGIN CATALOG COUNTRY IDENTIFIER",
+          "code": "GF_ORIGIN_CATALOG_COUNTRY_ID",
+          "datatype": "VARCHAR2(2)",
+          "mandatory": false
+        },
+        {
+          "id": "o310",
+          "name": "NOTIFICATION FAMILY NAME",
+          "code": "GF_NOTIFICATION_FAMILY_NAME",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o311",
+          "name": "STATUS MESSAGE DESCRIPTION",
+          "code": "GF_STATUS_MESSAGE_DESC",
+          "datatype": "VARCHAR2(254)",
+          "mandatory": false
+        },
+        {
+          "id": "o312",
+          "name": "COMMUNICATION FILE URI IDENTIFIER",
+          "code": "GF_COMMUNICATION_FILE_URI_ID",
+          "datatype": "VARCHAR2(250)",
+          "mandatory": false
+        },
+        {
+          "id": "o313",
+          "name": "COMMUNICATION TYPE IDENTIFIER",
+          "code": "GF_COMMUNICATION_TYPE_ID",
+          "datatype": "VARCHAR2(5)",
+          "mandatory": false
+        },
+        {
+          "id": "o314",
+          "name": "ORIGIN APPLICATION TRIGGER NAME",
+          "code": "GF_ORIGIN_APPLICATION_TRIGGER_NAME",
+          "datatype": "VARCHAR2(40)",
+          "mandatory": false
+        },
+        {
+          "id": "o315",
+          "name": "ORIGIN APPLICATION TRIGGER DESCRIPTION",
+          "code": "GF_ORIGIN_APPLICATION_TRIGGER_DESC",
+          "datatype": "VARCHAR2(500)",
+          "mandatory": false
+        },
+        {
+          "id": "o316",
+          "name": "AUDIT USER IDENTIFIER",
+          "code": "GF_USER_AUDIT_ID",
+          "datatype": "VARCHAR2(50)",
+          "mandatory": false
+        },
+        {
+          "id": "o317",
+          "name": "AUDIT DATE",
+          "code": "GF_AUDIT_DATE",
+          "datatype": "TIMESTAMP WITH TIME ZONE",
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}
